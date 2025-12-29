@@ -3,7 +3,9 @@ __MACOSX/
 ._*
 .ipynb_checkpoints/
 
-# never push data
-data/
-*.npy
-*.npz
+# ignore all data
+data/*
+
+# but keep this file
+!data/README.md
+!data/.gitkeep
